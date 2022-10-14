@@ -1,0 +1,334 @@
+.box,
+.input-box,
+.login-btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.input-box,
+.login-btn-box,
+.mail-box,
+.password-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal
+}
+
+#mail,
+#password {
+    background-repeat: no-repeat;
+    background-position: left
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+body {
+    font-family: Poppins, sans-serif
+}
+
+.box {
+    width: 1440px;
+    margin: 50px auto;
+    padding: 42px 25px;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: 0 0 65px 21px #08080d33;
+    box-shadow: 0 0 65px 21px #08080d33;
+    background-color: #e5e5e5;
+    border-radius: 25px
+}
+
+.btn-item,
+.login {
+    background-color: #fff
+}
+
+.login {
+    width: 725px;
+    height: 940px;
+    padding: 44px 25px;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .08);
+    border-radius: 8px
+}
+
+.login-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 135.5%;
+    width: 338px;
+    color: #2f2f2f;
+    margin-bottom: 37px
+}
+
+.login-bold {
+    font-size: 46px;
+    color: #6358dc;
+    font-weight: 900
+}
+
+.btn-item,
+.line-text {
+    font-size: 16px;
+    line-height: 135.5%
+}
+
+.btn-item,
+.checkbox-text,
+.label-mail,
+.label-password,
+.line-text {
+    color: #2f2f2f;
+    font-weight: 400
+}
+
+.input-box,
+.login-btn-box {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.line-box,
+.mail-box,
+.password-box {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.btn-item {
+    width: 100%;
+    border: none;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, .11);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .11);
+    border-radius: 8px;
+    cursor: pointer
+}
+
+.btn-item:hover {
+    background-color: #f0f0f0;
+    -webkit-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s
+}
+
+.btn-google {
+    padding: 30px 243px 26px 296px;
+    margin-bottom: 28px;
+    background-image: url('../img/google-logo.png');
+    background-repeat: no-repeat;
+    background-position: 245px
+}
+
+.btn-facebook {
+    padding: 30px 241px 26px 278px;
+    margin-bottom: 35px;
+    background-image: url('../img/facebook-logo.png');
+    background-repeat: no-repeat;
+    background-position: 240px
+}
+
+.line-box {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 36px
+}
+
+.line {
+    display: block;
+    width: 292px;
+    height: 1px;
+    border: none;
+    background-color: #bfbfbf
+}
+
+.mail-box,
+.password-box {
+    background: #ececec;
+    border-radius: 8px;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 15px 82px;
+    margin-bottom: 20px
+}
+
+.password-box {
+    margin-bottom: 24px
+}
+
+.label-mail,
+.label-password {
+    font-size: 12px;
+    line-height: 135.5%;
+    margin-bottom: 2px
+}
+
+#mail,
+#password,
+.checkbox-text,
+.footer-text,
+.forgot-link,
+.login-btn {
+    font-size: 16px;
+    line-height: 135.5%
+}
+
+#mail,
+#password {
+    margin-left: -60px;
+    padding: 7px 60px;
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    font-weight: 700;
+    color: #2f2f2f
+}
+
+#mail {
+    background-image: url('../img/mail-img.png')
+}
+
+#password {
+    background-image: url('../img/key-img.png')
+}
+
+#mail::-webkit-input-placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+#mail::-moz-placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+#mail:-ms-input-placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+#mail::-ms-input-placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+#mail::placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+#password::-webkit-input-placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+#password::-moz-placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+#password:-ms-input-placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+#password::-ms-input-placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+#password::placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135.5%;
+    color: #2f2f2f
+}
+
+.input-inner-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 24px
+}
+
+.checkbox-text {
+    margin-left: 15px
+}
+
+.forgot-link {
+    font-weight: 400;
+    color: #6358dc
+}
+
+.login-btn {
+    background-color: #6358dc;
+    border-radius: 8px;
+    border: none;
+    padding: 27px 313px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 47px
+}
+
+.login-btn:hover {
+    background-color: #4c43ae;
+    -webkit-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s
+}
+
+.footer-text {
+    text-align: center;
+    font-weight: 400;
+    color: #000
+}
+
+.footer-link {
+    color: #6358dc
+}
